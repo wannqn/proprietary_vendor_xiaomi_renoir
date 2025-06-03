@@ -6612,7 +6612,7 @@ cc_prebuilt_library_shared {
                 "vendor.qti.hardware.display.mapper@4.0",
                 "vendor.qti.hardware.display.mapperextensions@1.1",
                 "libcom.xiaomi.metadatautils",
-                "vendor.xiaomi.hardware.campostproc@1.0",
+                "vendor.xiaomi.hardware.campostproc@1.0_vendor",
                 "vendor.xiaomi.hardware.campostproc@1.0-service-impl",
                 "libcom.xiaomi.grallocutils",
                 "libcom.xiaomi.debug",
@@ -11002,7 +11002,7 @@ cc_prebuilt_library_shared {
                 "libcom.xiaomi.debug",
                 "libgrallocutils",
                 "libmialgoengine",
-                "vendor.xiaomi.hardware.campostproc@1.0",
+                "vendor.xiaomi.hardware.campostproc@1.0_vendor",
                 "android.hardware.camera.common@1.0",
                 "android.hardware.graphics.mapper@3.0",
                 "libc++",
@@ -11018,7 +11018,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.xiaomi.hardware.campostproc@1.0",
+    name: "vendor.xiaomi.hardware.campostproc@1.0_vendor",
+    stem: "vendor.xiaomi.hardware.campostproc@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
